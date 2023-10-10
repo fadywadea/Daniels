@@ -18,41 +18,50 @@ h6,
 
 .navbar-home {
   width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.nav-scrolled {
+  background-color: white;
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
 }
 
 .stl-logo {
-  color: #000;
+  color: white;
   font-size: 18px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
+  transition: all 0.4s ease-in-out;
 }
 
 .stl-logo:hover {
-  color: #000;
+  color: white;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link a {
-  color: #000;
+  color: white;
   padding: 0;
-  border-bottom: 2px solid #000;
-  transition: all 1s;
+  border-bottom: 2px solid white;
+  transition: all 0.4s ease-in-out;
 }
-
 
 .navigation a {
-  color: #000;
+  color: white;
   padding: 0px;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 400;
+  transition: all 0.4s ease-in-out;
 }
 
+.navigation a:hover {
+  color: white;
+}
 .navigation li {
   margin: 0px 10px;
 }
 
-#home {
+#Home {
   background-image: url(../img/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -283,7 +292,6 @@ h6,
 
 /*END SECTION SERVICES*/
 
-
 /*START SECTION PORTFOLIO*/
 .section-mf {
   padding: 100px 0;
@@ -497,7 +505,7 @@ h6,
 }
 
 .single-team {
-  background-color: rgba(52, 52, 52, .8);
+  background-color: rgba(52, 52, 52, 0.8);
   margin-bottom: 10px;
 }
 
@@ -545,7 +553,7 @@ h6,
   top: 175px;
 }
 
-.list-inline>li {
+.list-inline > li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;

@@ -644,7 +644,7 @@ h6,
 .contact .form input[type="email"],
 .contact .form textarea {
   width: 100%;
-  border: none;
+  border: none !important;
   border-radius: 5px;
   padding: 10px;
   background: #f4f4f4;

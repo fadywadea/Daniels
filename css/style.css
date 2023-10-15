@@ -18,7 +18,7 @@ h6,
 
 .navbar-home {
   width: 100%;
-  transition: all 0.4s ease-in-out;
+  transition: all .6s ease-in-out;
 }
 .nav-scrolled {
   background-color: white;
@@ -31,19 +31,25 @@ h6,
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: all 0.4s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+.stl-logo2 {
+  color: #000;
 }
 
 .stl-logo:hover {
-  color: white;
+  color: red;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link a {
-  color: white;
-  padding: 0;
-  border-bottom: 2px solid white;
-  transition: all 0.4s ease-in-out;
+  background: white;
+  height: 2px;
+  left: 0;
+  z-index: 0;
+  border-radius: 8px;
+  transition: all .6s ease-in-out;
+  /* border-bottom: 2px solid red; */
 }
 
 .navigation a {
@@ -51,7 +57,11 @@ h6,
   padding: 0px;
   font-size: 17px;
   font-weight: 400;
-  transition: all 0.4s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+.navigation2 a {
+  color: black;
 }
 
 .navigation a:hover {
